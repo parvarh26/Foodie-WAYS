@@ -67,6 +67,17 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Footer / Credits */}
+      <footer className={styles.footer}>
+        <div className={styles.creditsContainer}>
+          <p><strong>Submitted by-</strong></p>
+          <p>Lav Kumar Mishra (25BCS11906)</p>
+          <p>Rahul Kumar (25BCS10538)</p>
+          <p>Aditya Kumar Jha (25BCS12978)</p>
+          <p className={styles.submittedTo}><strong>Submitted to-</strong> Nikhil Choudhary</p>
+        </div>
+      </footer>
+
     </div>
   );
 }

@@ -221,6 +221,31 @@
   line-height: 1.6;
 }
 
+.footer {
+  padding: 40px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--surface-border);
+  background: rgba(8, 18, 36, 0.4);
+  margin-top: 60px;
+}
+
+.creditsContainer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.creditsContainer strong {
+  color: var(--neon-blue);
+}
+
+.submittedTo {
+  margin-top: 16px;
+}
+
 @media (max-width: 968px) {
   .hero {
     flex-direction: column;
