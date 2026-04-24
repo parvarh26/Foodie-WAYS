@@ -74,7 +74,7 @@ export default function LandingPage() {
           <p>Lav Kumar Mishra (25BCS11906)</p>
           <p>Rahul Kumar (25BCS10538)</p>
           <p>Aditya Kumar Jha (25BCS12978)</p>
-          <p className={styles.submittedTo}><strong>Submitted to-</strong> Nikhil Choudhary</p>
+          <p className={styles.submittedTo}><strong>Submitted to-</strong> Nikhil Choudhary Sir</p>
         </div>
       </footer>
 
